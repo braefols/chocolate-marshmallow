@@ -1,0 +1,30 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form {
+  margin: 0; padding: 0; border: 0;
+}
+
+body {
+  text-align: center;
+  background: black;
+}
+
+header {
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+}
+
+#banner {
+  width: 100%;
+  height: 500px;
+  top: 100px;
+  background: #964435;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  top: 400px;
+  height: 1500px;
+}
